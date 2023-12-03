@@ -1,0 +1,126 @@
+.news-container {
+    width: 100%;
+    height: 1109px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #f3ad89;
+    padding-top: 250px;
+}
+
+.news-subContainer {
+    width: 57%;
+    max-height: 850px;
+    /* background-color: darkcyan; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: none;
+    border-bottom: 1.5px solid white;
+    padding-bottom: 20px;
+}
+
+.topImageContainer {
+    width: 92%;
+    /* background-color: blue; */
+    height: 520px;
+}
+
+.topImageContainer img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    object-position: center;
+}
+
+.bottomSubContainer {
+    /* background-color: aliceblue; */
+    width: 100%;
+    height: 100%;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.firstText {
+    font-size: 2vw;
+    letter-spacing: 0.1vw;
+    font-weight: 350;
+
+}
+
+.secondText {
+    margin-top: 20px;
+    font-size: 1.3vw;
+    letter-spacing: 0.1vw;
+    font-weight: 350;
+    text-transform: uppercase;
+}
+
+.bottomSubContainer h3 {
+    margin-top: 20px;
+    font-size: 1vw;
+    letter-spacing: 0.1vw;
+    font-weight: 350;
+}
+
+.social-media-icons {
+    margin-top: 20px;
+    width: 150px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* background-color: aquamarine; */
+}
+
+@media screen and (max-width: 1400px) {
+    .news-container {
+        /* display: none; */
+
+        width: 100%;
+        height: 880px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        background-color: #f3ad89;
+        padding-top: 200px;
+    }
+
+    .news-subContainer {
+        width: 57%;
+        height: 650px;
+        /* background-color: darkcyan; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: none;
+        border-bottom: 1.5px solid white;
+        /* padding-bottom: 100px; */
+    }
+
+    .topImageContainer {
+        width: 93%;
+        /* background-color: blue; */
+        height: 410px;
+    }
+
+    .topImageContainer img {
+        width: 100%;
+        height: 100%;
+        object-fit: fill;
+        object-position: center;
+    }
+}
+
+.footerComponent {
+    width: 100%;
+    background-color: rgb(44, 26, 11);
+    opacity: 0.5;
+    margin-top: 20px;
+    height: 329px;
+    /* height: 100%; */
+}

@@ -5,10 +5,12 @@ html{
 *{
   padding: 0;
   margin: 0;
-  box-sizing: border-box;
-  font-family: 'DM Sans', sans-serif;
 }
-a{
+body{
+  font-family: "brandon-grotesque";
+}
+a {
   text-decoration: none;
-  color: inherit;
+  color: #FFF;
+  cursor: pointer;
 }
