@@ -1,0 +1,155 @@
+.find-us-container {
+    background-color: #eca784;
+    width: 100%;
+    /* height: 100vh; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 200px;
+    text-align: center;
+}
+
+.top-nav-links {
+    width: 35%;
+    /* background-color: black; */
+    color: white;
+    position: fixed;
+    /* background-color: blue; */
+    /* display: flex;
+    align-items: center; */
+}
+
+.top-nav-links ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+    text-transform: uppercase;
+}
+
+.top-nav-links li {
+    font-size: 1.05vw;
+    font-weight: 500;
+    list-style: none;
+    cursor: pointer;
+    /* padding-top: 20px; */
+}
+
+.sections-list {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* margin-top: 800px; */
+    /* padding-top: -200px; */
+    /* padding-top: 100px; */
+    margin-top: 60px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+
+}
+
+.sections-list h1 {
+    color: white;
+    font-size: 28px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+section {
+    width: 100%;
+    /* display: block; */
+    /* height: 1000px; */
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+    margin-bottom: 20px;
+    /* background-color: rgb(15, 93, 161); */
+    padding: 20px;
+    /* border-bottom: 2px solid black;  */
+}
+
+.contact-container,
+.stockist-container,
+.press-container,
+.download-container {
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    /* background-color: gray; */
+    border: none;
+    border-bottom: 0.7px solid white;
+}
+
+/* Contact section */
+.address-container {
+    width: 60%;
+    /* background-color: gray; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px auto 150px auto;
+}
+
+.address-container h2 {
+    font-size: 1.3vw;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+
+.address-container h3 {
+    font-size: 1.3vw;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+
+/* Press section */
+.press-container{
+    margin-top: 50px;
+}
+.press-display-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: 50px auto 150px auto;
+    /* background-color: gray; */
+}
+.single-press-list-item{
+    width: 100%;
+    /* background-color: gray; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    margin-top: 5px;
+    /* border-top: 0.7px solid white; */
+    border-bottom: 0.7px solid white;
+    cursor: pointer;
+}
+.list-item-left{
+    font-size: 1.2vw;
+    width: 80%;
+    /* background-color: white; */
+    font-weight: 300;
+    letter-spacing: 1px;
+    color: black;
+    text-align: left;
+}
+.list-item-right{
+    width: 20%;
+    text-align: right;
+    font-size: 1.1vw;
+    font-weight: 250;
+    letter-spacing: 1px;
+    color: white;
+}
+
+@media screen and (max-width: 670px) {
+    .find-us-container {
+        display: none;
+    }
+}
