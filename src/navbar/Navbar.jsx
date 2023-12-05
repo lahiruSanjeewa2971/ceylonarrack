@@ -58,7 +58,9 @@ function Navbar() {
         {openSubNavCocktails && (
           <div className="sub-nav-bar">
             <ul>
-              <li>PUNCH</li>
+              <li>
+                <Link to='/cocktails/punch'>PUNCH</Link>
+              </li>
               <li>TASTING</li>
               <li>INFUSIONS</li>
             </ul>

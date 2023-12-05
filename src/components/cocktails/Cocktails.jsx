@@ -115,7 +115,7 @@ function Cocktails() {
   return (
     <div className='cocktails-container'>
       <div className="top-container">
-        <motion.div className="title" whileHover={{backgroundColor: 'red'}}>MAKING COCKTAILS</motion.div>
+        <motion.div className="title">MAKING COCKTAILS</motion.div>
         <div className="first-paragraph">
           <p>Ceylon Arrack is an excellent base for a number of classic cocktails, best mixed with soft, wine-based spirits, with syrups and with natural fruits. It is beautifully paired with citrus fruits such as lemon, lime or orange; and with ingredients as diverse as chocolate, coffee, ginger, almond and coconut. </p>
         </div>

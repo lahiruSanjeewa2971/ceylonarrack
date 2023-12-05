@@ -1,0 +1,130 @@
+.punch-container {
+    width: 100%;
+    background-color: rgba(48, 97, 62, 0.525);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 300px 0px 0px 0px;
+    overflow-x: hidden;
+}
+
+.top-container {
+    width: 60%;
+    height: 430px;
+    /* position: fixed; */
+    padding: 5px 0px 0px 0px;
+    text-align: center;
+    z-index: 1;
+}
+
+.title {
+    font-size: 2.3vw;
+    color: rgb(255, 255, 255);
+}
+
+.first-paragraph {
+    width: 100%;
+    margin: 30px auto 0px auto;
+    font-size: 1.4vw;
+    line-height: 4vh;
+    letter-spacing: 1.6px;
+    color: white;
+}
+
+.middle-container {
+    width: 100%;
+    /* margin-top: 300px; */
+    background-color: rgb(255, 255, 255);
+    /* background-color: rgb(164, 89, 89); */
+}
+
+.grid-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0 auto;
+    /* Center the grid */
+}
+
+.grid-item {
+    width: 100%;
+    flex: 1;
+    min-width: calc(33.33% - 10px);
+    text-align: center;
+    box-sizing: border-box;
+    display: flex;
+
+}
+
+.grid-item img {
+    width: 100%;
+    /* height: 90%; */
+    z-index: 3;
+    background-repeat: no-repeat;
+    object-fit: fill;
+    object-position: center;
+    background-color: red;
+}
+
+.single-map-image:hover {
+    opacity: 0.5;
+    transition: opacity 0.3s ease-out;
+    z-index: 1;
+}
+
+.grid-item span {
+    color: rgb(0, 0, 0);
+    font-size: 1.8vw;
+    z-index: 2;
+    margin-left: -100%;
+    margin-top: 60%;
+    width: 100%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-on-image {
+    /* color: rgb(0, 0, 0);
+    position: absolute;
+    background-color: yellow;
+    top: 0;
+    left: 0; */
+    /* width: 80%; */
+    /* right: 50%;
+    left: 50%;
+    bottom: 15%; */
+}
+
+/* Media query for smaller screens */
+@media (max-width: 700px) {
+    .grid-item {
+        min-width: calc(50% - 10px);
+    }
+}
+
+/* Bottom container */
+.bottom-container {
+    width: 56%;
+    margin: 180px auto 100px auto;
+    z-index: 3;
+}
+
+.last-paragraph {
+    width: 100%;
+    font-size: 1.4vw;
+    line-height: 4vh;
+    letter-spacing: 1.6px;
+    color: white;
+}
+
+.footerComponent {
+    width: 100%;
+    background-color: rgb(44, 26, 11);
+    opacity: 0.5;
+    margin-top: 20px;
+    height: 329px;
+    /* height: 100%; */
+}
