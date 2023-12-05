@@ -15,5 +15,5 @@ a {
   cursor: pointer;
 }
 section{
-  scroll-snap-align: center;
+  scroll-snap-align: end;
 }

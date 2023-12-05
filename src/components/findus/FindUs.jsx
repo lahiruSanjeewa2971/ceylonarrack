@@ -1,6 +1,7 @@
 import React from 'react'
 import './findus.css'
 import { Link } from 'react-router-dom'
+import Footer from '../footer/Footer'
 
 function FindUs() {
   const pressList = [
@@ -76,6 +77,7 @@ function FindUs() {
 
       <span id="sponsors">&nbsp;</span>
       <div className="sections-list">
+        <section id='top'></section>
         <section id='contact' className='contact-container'>
           <h1>contact</h1>
           <div className="address-container">
@@ -97,7 +99,7 @@ function FindUs() {
               pressList.map((single) => (
                 <div className='single-press-list-item'>
                   <h4 className='list-item-left'><a href={single.link}>{single.name}</a></h4>
-                  <h4 className='list-item-right'><a  href={single.link}>OPEN TO SEE</a></h4>
+                  <h4 className='list-item-right'><a href={single.link}>OPEN TO SEE</a></h4>
                 </div>
               ))
             }
@@ -106,7 +108,35 @@ function FindUs() {
 
         <section id='download' className='download-container'>
           <h1>download</h1>
+          <div className="sub-download-container">
+            <img
+              src='https://www.ceylonarrack.com/wp-content/uploads/2014/10/poster1-380x540.png'
+              alt=''
+              className='download-section-image'
+            />
+            <h3 className='download-section-firstText'>Taken from Trees</h3>
+            <h3 className='download-section-secondText'
+              style={{
+                // fontSize: '1.15vw'
+                color: 'gray'
+              }}
+            >
+              <a href='https://www.ceylonarrack.com/wp-content/uploads/2014/10/poster1.png'>
+                OPEN THUMBNAIL
+              </a>
+            </h3>
+            <h3 className='download-section-thirdText'>
+              <a href='https://www.ceylonarrack.com/wp-content/uploads/2014/07/ca_poster.pdf'>
+                Download
+              </a>
+            </h3>
+          </div>
         </section>
+      </div>
+
+      <div className="bottom-container"> </div>
+      <div className="footer-container">
+        <Footer />
       </div>
     </div>
   )
