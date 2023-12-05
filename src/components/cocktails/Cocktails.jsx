@@ -1,6 +1,22 @@
 import React from 'react'
 import './cocktails.css'
 import Footer from '../footer/Footer';
+import { motion } from 'framer-motion';
+
+const variants = {
+  initial: {
+      x: -500,
+      opacity: 0
+  },
+  animate: {
+      x: 0,
+      opacity: 1,
+      transition: {
+          duration: 1,
+          staggerChildren: 0.1
+      }
+  }
+}
 
 function Cocktails() {
   const pageLinks = [
@@ -95,27 +111,28 @@ function Cocktails() {
       spanText: 'Aliya',
     },
   ];
+
   return (
     <div className='cocktails-container'>
       <div className="top-container">
-        <div className="title">MAKING COCKTAILS</div>
+        <motion.div className="title" whileHover={{backgroundColor: 'red'}}>MAKING COCKTAILS</motion.div>
         <div className="first-paragraph">
           <p>Ceylon Arrack is an excellent base for a number of classic cocktails, best mixed with soft, wine-based spirits, with syrups and with natural fruits. It is beautifully paired with citrus fruits such as lemon, lime or orange; and with ingredients as diverse as chocolate, coffee, ginger, almond and coconut. </p>
         </div>
       </div>
-      <div className="middle-container">
+      <motion.div className="middle-container" variants={variants}>
         <div className="grid-container">
           {/* Your grid items go here */}
           {
             pageLinks.map((single) => (
               <div className="grid-item">
-                <img src={single.img} alt='' />
-                <span className='text-on-image'>{single.spanText}</span>
+                <img className='single-map-image' src={single.img} alt=''  onClick={() => console.log("___4")} />
+                <motion.span className='text-on-image'>{single.spanText}</motion.span>
               </div>
             ))
           }
         </div>
-      </div>
+      </motion.div>
       <div className="bottom-container">
         <div className="last-paragraph">
           <p>Ceylon Arrack is also well balanced with spirits that range from sherry and vermouth to rum, brandy and tequila. The arrack draws out and enhances even the subtlest of flavours, such as that of green tea or Calvados. A dash of bitters can be used with Ceylon Arrack to add an additional layer of complexity or to round off the finish.</p>

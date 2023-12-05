@@ -35,6 +35,7 @@
 
 .middle-container {
     width: 100%;
+    background-color: rgb(255, 255, 255);
     /* background-color: rgb(164, 89, 89); */
 }
 
@@ -59,24 +60,29 @@
 .grid-item img {
     width: 100%;
     /* height: 90%; */
+    z-index: 3;
     background-repeat: no-repeat;
     object-fit: fill;
     object-position: center;
+    background-color: red;
 }
-.grid-item span{
-    color: white;
-    font-size: 1.8vw;
+.single-map-image:hover{
+    opacity: 0.5;
+    transition: opacity 0.3s ease-out;
     z-index: 1;
+}
+
+.grid-item span{
+    color: rgb(0, 0, 0);
+    font-size: 1.8vw;
+    z-index: 2;
     margin-left: -100%;
     margin-top: 60%;
     width: 100%;
     height: 30px;
     display: flex;
-    /* flex-direction: column; */
     align-items: center;
     justify-content: center;
-    /* margin-top: -100px; */
-    /* background-color: gray; */
 }
 
 .text-on-image {
