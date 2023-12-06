@@ -61,8 +61,12 @@ function Navbar() {
               <li>
                 <Link to='/cocktails/punch'>PUNCH</Link>
               </li>
-              <li>TASTING</li>
-              <li>INFUSIONS</li>
+              <li>
+                <Link to='/cocktails/tasting'>TASTING</Link>
+              </li>
+              <li>
+                <Link to='/cocktails/infusions'>INFUSIONS</Link>
+              </li>
             </ul>
           </div>)
         }
