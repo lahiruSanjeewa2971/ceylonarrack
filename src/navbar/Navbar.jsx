@@ -32,7 +32,9 @@ function Navbar() {
               height='149px'
             />
           </li>
-          <li className='listItems' onClick={() => handleSubNavCocktails(false)}>Environment</li>
+          <li className='listItems' onClick={() => handleSubNavCocktails(false)}>
+            <Link to='/environment'>Environment</Link>
+          </li>
           <li className='listItems'>
             <Link
               to='/news'

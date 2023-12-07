@@ -1,0 +1,200 @@
+.environment-container {
+    width: 100%;
+}
+
+.environment-section {
+    width: 100%;
+    height: 100vh;
+    margin: 0px;
+    padding: 0px;
+    scroll-snap-align: start;
+    scroll-margin-top: 0px;
+    background-color: rgba(48, 97, 62, 0.525);
+}
+.footer-section{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    scroll-snap-align: start;
+    scroll-margin-top: 0px;
+    /* opacity: 0.9; */
+}
+.env-first-container{
+    width: 100%;
+    height: 100%;
+    /* background-color: rebeccapurple; */
+    text-align: center;
+    color: white;
+    background-position: center center;
+    background-image: url('https://www.ceylonarrack.com/wp-content/uploads/2014/07/environment-title.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.env-first-container h2{
+    font-size: 3.6vw;
+    letter-spacing: 1.5px;
+    font-weight: 250;
+    padding: 50px 0px 50px 0px;
+    border-top: 2px solid aliceblue;
+    border-bottom: 2px solid aliceblue;
+}
+
+/* second section */
+.env-second-container{
+    width: 49%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+    /* background-color: rebeccapurple; */
+    text-align: center;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.env-second-container p{
+    font-size: 1.6vw;
+    /* letter-spacing: 1px; */
+    font-weight: 525;
+    line-height: 4vh;
+}
+
+/* third section  & fourth section*/
+.env-third-container,
+.env-fourth-container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.env-third-container-left,
+.env-fourth-container-right{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.env-third-container-left p,
+.env-fourth-container-right p{
+    width: 71%;
+    text-align: center;
+    color: white;
+    font-size: 1.6vw;
+    line-height: 4vh;
+    /* background-color: aqua; */
+}
+.env-third-container-right,
+.env-fourth-container-left{
+    width: 50%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.env-third-container-right{
+    height: 100%;
+    background-image: url('https://www.ceylonarrack.com/wp-content/uploads/2014/07/environment-04.jpg');
+}
+.env-fourth-container-left{
+    height: 100%;
+}
+.inside-image{
+    width: 100%;
+    margin-top: 3%;
+    height: 97%;
+    background-image: url('https://www.ceylonarrack.com/wp-content/uploads/2014/07/environment-01.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* fifth container */
+.env-fifth-container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.env-fifth-container-left{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.env-fifth-container-left p{
+    width: 71%;
+    text-align: center;
+    color: white;
+    font-size: 1.6vw;
+    line-height: 4vh;
+    /* background-color: aqua; */
+}
+.env-fifth-container-right{
+    width: 50%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.env-fifth-container-right{
+    height: 100%;
+}
+.fifth-inside-image{
+    width: 100%;
+    margin-top: 3%;
+    height: 97%;
+    background-image: url('https://www.ceylonarrack.com/wp-content/uploads/2014/07/environment.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* sixth section */
+.env-sixth-container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.env-sixth-container-right{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.env-sixth-container-right p{
+    width: 71%;
+    text-align: center;
+    color: white;
+    font-size: 1.6vw;
+    line-height: 4vh;
+    /* background-color: aqua; */
+}
+.env-sixth-container-left{
+    width: 50%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.env-sixth-container-left{
+    height: 100%;
+}
+.sixth-inside-image{
+    width: 100%;
+    margin-top: 3%;
+    height: 97%;
+    background-image: url('https://www.ceylonarrack.com/wp-content/uploads/2014/07/environment-03.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

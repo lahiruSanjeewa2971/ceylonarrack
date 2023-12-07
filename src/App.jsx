@@ -8,6 +8,7 @@ import Cocktails from './components/cocktails/Cocktails'
 import Punch from './components/cocktails/punch/Punch';
 import Tasting from './components/cocktails/tasting/Tasting';
 import Infusions from './components/cocktails/infusions/Infusions';
+import Environment from './components/environment/Environment';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route path='/cocktails/punch' element={<Punch/>} />
         <Route path='/cocktails/tasting' element={<Tasting/>} />
         <Route path='/cocktails/infusions' element={<Infusions/>} />
+        <Route path='/environment' element={<Environment/>} />
       </Routes>
     </Router>
   );
