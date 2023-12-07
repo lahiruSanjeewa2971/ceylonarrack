@@ -10,66 +10,53 @@
     align-items: center;
     justify-content: center;
 }
+
+/* first section */
 .first-section{
-    width: 65%;
-    height: 30%;
-    margin: 150px 0px 0px 0px;
-    /* background-color: red; */
-    display: grid;
-    grid-template-columns: 3fr 1.2fr;
-    grid-template-rows: 1fr 5fr;
-    grid-template-areas: 
-        "first-section-title first-section-image"
-        "first-section-paragraph first-section-image";
-    gap: 10px;
+    width: 80%;
+    height: 60%;
+    /* background-color: salmon; */
+    margin: 200px 0px 0px 0px;
     color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    /* padding: 10px; */
 }
-#first-section-title, 
-#first-section-paragraph{
+.first-section-left-container{
     display: flex;
     flex-direction: column;
-    text-align: center;
+    width: 70%;
+    align-items: center;
+    /* background-color: sienna; */
 }
-
-#first-section-title{
-    grid-area: first-section-title;
-    margin-top: 50px;
-    /* background-color: rgb(82, 137, 186); */
-}
-#first-section-title h2{
+.first-section-left-container h2{
     font-size: 2vw;
     font-weight: 500;
     text-transform: uppercase;
 }
-
-#first-section-paragraph{
-    grid-area: first-section-paragraph;
-    display: flex;
-    text-align: center;
-    line-height: 4vh;
-    /* background-color: aqua; */
-}
-#first-section-paragraph p{
+.first-section-left-container p{
     font-size: 1.5vw;
     font-weight: 400;
-    padding: 0px 0px 0px 0px;
-    /* text-transform: uppercase; */
+    margin-top: 20px;
 }
-
-#first-section-image{
+.first-section-right-container{
+    width: 30%;
+    /* height: 50vh; */
     display: flex;
     flex-direction: column;
+    /* background-color: slateblue; */
     align-items: center;
     justify-content: center;
-    text-align: center;
-    grid-area: first-section-image;
-    /* background-color: blueviolet; */
 }
-.first-image{
-    width: 100%;
-    height: 500px;
+.first-section-right-container img{
+    width: 80%;
+    height: 100%;
+    /* background-color: rebeccapurple; */
+    object-fit: fill;
+    object-position: center;
 }
-
 
 /* second section */
 .second-section{
@@ -134,7 +121,7 @@
     text-align: center;
     /* background-color: antiquewhite; */
 }
-.second-image{
+#second-section-image img{
     width: 90%;
     height: 90%;
 }
@@ -185,7 +172,7 @@
 #third-section-image{
     grid-area: third-section-image;
 }
-.third-image{
+#third-section-image img{
     width: 100%;
     height: 100%;
 }
@@ -242,7 +229,7 @@
         font-size: 2.5vw;
         line-height: 4vw;
     }
-    .second-image{
+    #second-section-image img{
         padding: 0;
         margin: 0;
         width: 30%;
