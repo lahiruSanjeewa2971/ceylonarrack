@@ -3,6 +3,7 @@ import './navbar.css'
 import { Link } from 'react-router-dom'
 // import './navbar.scss'
 
+
 function Navbar() {
   const [openSubNavCocktails, setOpenSubNavCocktails] = useState(false);
 
@@ -19,7 +20,10 @@ function Navbar() {
     <div className='navbar-main-container'>
       <nav>
         <ul id='baseNavContainer'>
-          <li className='listItems' onClick={() => handleSubNavCocktails(false)}>Our Arrack</li>
+          <li className='listItems' >
+            <Link to='/ourarrack'
+              className='linkTag'
+              onClick={() => handleSubNavCocktails(false)}>Our Arrack</Link></li>
           <li className='listItems' onClick={() => handleSubNavCocktails(false)}>Process</li>
           <li className='listItems'>
             <Link to='/cocktails' onClick={() => handleSubNavCocktails(true)}>Cocktails</Link>
