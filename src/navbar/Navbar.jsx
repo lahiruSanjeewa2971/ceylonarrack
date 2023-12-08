@@ -24,7 +24,10 @@ function Navbar() {
             <Link to='/ourarrack'
               className='linkTag'
               onClick={() => handleSubNavCocktails(false)}>Our Arrack</Link></li>
-          <li className='listItems' onClick={() => handleSubNavCocktails(false)}>Process</li>
+          <li className='listItems'>
+            <Link to='/process'
+            className='linkTag'
+            onClick={() => handleSubNavCocktails(false)}>Process</Link></li>
           <li className='listItems'>
             <Link to='/cocktails' onClick={() => handleSubNavCocktails(true)}>Cocktails</Link>
           </li>

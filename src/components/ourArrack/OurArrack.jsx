@@ -56,10 +56,25 @@ function OurArrack() {
         </div>
       </section>
       <section className='ourarrack-container'>
-        4
+        <div className='ourarrack-fourthsection'>
+            <p>Today the distillery continues to make Ceylon Arrack and has never been more proud of it – an art handed down through four generations of family, an elixir derived from many more generations of coconut trees. Hold a bottle of Ceylon Arrack in your hand and feel its soul – born of nearly a hundred years of hard work, capturing the essence of a beautiful island in the Indian Ocean. </p>
+        </div>
       </section>
       <section className='ourarrack-container'>
-        5
+        <div className='ourarrack-fifthsection'>
+            <div className='fifthsection-left'>
+              <p>We believe in honest methods, in honesty in business, in paying our taxes and not always succumbing to the easy path. Integrity was one of our founding values, and one we still hold very dear. There is nothing hurried or mechanized about how the distillery makes arrack. Rather, it relies on the ancient art of sap collection, always done by hand, and a traditional distilling process that has stood the test of time.</p>
+            </div>
+            <div className='fifthsection-right'></div>
+          </div>
+      </section>
+      <section className='ourarrack-container'>
+        <div className='ourarrack-sixthsection'>
+            <div className='sixthsection-left'></div>
+            <div className='sixthsection-right'>
+            <p>The result is a 100 per cent natural, wonderfully multifaceted coconut spirit that intrigues you, entices you, warms you and leaves you wanting more. The vision of our founders was to make high-quality arrack and introduce it to the world. We hope each taste of Ceylon Arrack inspires you to believe in your dreams, too. </p>
+            </div>
+          </div>
       </section>
     </div>
   )

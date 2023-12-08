@@ -9,8 +9,9 @@ import Punch from './components/cocktails/punch/Punch';
 import Tasting from './components/cocktails/tasting/Tasting';
 import Infusions from './components/cocktails/infusions/Infusions';
 import OurArrack from './components/ourArrack/OurArrack';
-
+import Process from './components/process/Process';
 import Environment from './components/environment/Environment';
+
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/ourarrack' element={<OurArrack/>} />
+        <Route path='/process' element={<Process/>} />
         <Route path='/news' element={<News/>} />
         <Route path='/find-us' element={<FindUs/>} />
         <Route path='/cocktails' element={<Cocktails/>} />

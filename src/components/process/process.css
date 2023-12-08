@@ -1,0 +1,149 @@
+.outer-container{
+    width: 100%;
+}
+.process-container{
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    scroll-margin-top: 0px;
+    overflow: hidden;
+}
+.process-firstsection{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: white;
+    background-image: url("https://www.ceylonarrack.com/wp-content/uploads/2014/07/process-01.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.process-firstsection h2{
+    border-top: 1.5px solid white;
+    border-bottom: 1.5px solid white;
+    padding: 30px 0px 30px 0px;
+    font-size: 3.5vw;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+.process-secondsection{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: rgb(10, 8, 8);
+    background-image: url("https://www.ceylonarrack.com/wp-content/uploads/2014/07/process-02-819x480.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.secondsection-left{
+    width: 30%;
+    text-align: center;
+    padding: 0px 200px 0px 200px;
+    font-size: 1.55vw;
+    line-height: 5vh;
+    font-weight: 600;
+}
+.secondsection-right{
+    width: 70%;
+}
+.process-thirdsection{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: rgb(10, 8, 8);
+    background-image: url("https://www.ceylonarrack.com/wp-content/uploads/2014/07/process-03-819x480.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.thirdsection-left{
+    width: 70%;
+}
+.thirdsection-right{
+    width: 30%;
+    text-align: center;
+    padding: 0px 200px 0px 200px;
+    font-size: 1.55vw;
+    line-height: 5vh;
+    font-weight: 600;
+}
+.process-fourthsection{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: white;
+    background-image: url("https://www.ceylonarrack.com/wp-content/uploads/2014/07/process-04-819x480.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fourthsection-left{
+    width: 30%;
+    text-align: center;
+    padding: 0px 200px 0px 200px;
+    font-size: 1.55vw;
+    line-height: 5vh;
+    font-weight: 600;
+}
+.fourthsection-right{
+    width: 70%;
+}
+.process-fifthsection{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: white;
+    background-image: url("https://www.ceylonarrack.com/wp-content/uploads/2014/07/process-05-819x480.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fifthsection-left{
+    width: 70%;
+}
+.fifthsection-right{
+    width: 30%;
+    text-align: center;
+    padding: 0px 200px 0px 200px;
+    font-size: 1.55vw;
+    line-height: 5vh;
+    font-weight: 600;
+}
+.process-sixthsection{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: white;
+    background-image: url("https://www.ceylonarrack.com/wp-content/uploads/2014/07/process-06-819x480.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.process-sixthsection p{
+    text-align: center;
+    padding: 0px 400px 0px 400px;
+    font-size: 1.55vw;
+    line-height: 5vh;
+    font-weight: 600;
+}
