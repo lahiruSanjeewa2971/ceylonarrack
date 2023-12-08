@@ -39,6 +39,7 @@
     font-size: 3.5vw;
     font-weight: 300;
     letter-spacing: 1px;
+    font-family: 'brandon-grotesque';
 }
 .ourarrack-thirdsection{
     width: 100%;
@@ -60,6 +61,7 @@
     font-size: 1.55vw;
     line-height: 5vh;
     font-weight: 600;
+    font-family: 'brandon-grotesque';
 }
 .thirdsection-right{
     width: 52%;
@@ -83,6 +85,7 @@
     font-size: 1.55vw;
     line-height: 5vh;
     font-weight: 600;
+    font-family: 'brandon-grotesque';
 }
 
 .ourarrack-fifthsection{

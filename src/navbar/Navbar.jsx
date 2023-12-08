@@ -32,12 +32,14 @@ function Navbar() {
             <Link to='/cocktails' onClick={() => handleSubNavCocktails(true)}>Cocktails</Link>
           </li>
           <li onClick={() => handleSubNavCocktails(false)}>
+          <Link to='/'>
             <img
               src='https://www.ceylonarrack.com/wp-content/themes/template_1_2/images/logo.svg'
               alt=''
               width='149px'
               height='149px'
             />
+            </Link>
           </li>
           <li className='listItems' onClick={() => handleSubNavCocktails(false)}>
             <Link to='/environment'>Environment</Link>

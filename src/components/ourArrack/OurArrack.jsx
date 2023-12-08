@@ -29,7 +29,7 @@ function OurArrack() {
             height="100%"
             playing={isPlaying}
             volume={isMuted ? 0 : 0.5}
-            controls={false}
+            controls={true}
             onEnded={() =>{
               console.log("ended")
             }}
